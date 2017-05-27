@@ -16,3 +16,7 @@ Gemfile.lock
 bin/*
 .bundle/*
 
+# Kitchen
+.kitchen/
+
+

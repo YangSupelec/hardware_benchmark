@@ -6,10 +6,10 @@ provisioner:
   name: chef_solo
 
 platforms:  
-  - name: centos-6.4
+  - name: centos-6.7
 
 suites:  
   - name: default
     run_list:
-      - recipe[strider-cd::default]
+      - recipe[validation_inventory::default]
     attributes:

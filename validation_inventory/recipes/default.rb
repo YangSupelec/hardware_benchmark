@@ -6,3 +6,5 @@
 #
 # All rights reserved - Do Not Redistribute
 #
+
+include_recipe "validation_inventory::fio_install"
